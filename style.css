@@ -1,0 +1,66 @@
+*{
+    padding: 0;
+    margin: 0;
+   
+}
+body{
+    padding: 50px;
+    background-color: #ffecec;
+}
+.titre h2{
+font-size: 16px;
+text-align:start ;
+margin: 5px;
+}
+.titre{
+    display: flex;
+    justify-content:space-between;
+}
+.score-quiz h1{
+text-align: start;
+margin: 0px;
+color: #ad6363;
+}
+.score-quiz h2{
+    font-size: 20px;
+    text-align: end;
+}
+.progress{
+    width:150px ;
+    height: 20px;
+    border: 2px solid #FC9A9A;
+}
+ .barr{
+    width: 20%;
+    height: 100%;
+    background: #C59797;
+ }
+ .boxs h1{
+text-align:center;
+margin: 30px;
+padding: 10px;
+ }
+ 
+ .contaires{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+ }
+ .letter{
+    box-sizing: border-box;
+    background: #C59797;
+    width: 5%;
+    height: 50px;
+    text-align: center;
+    padding: 15px;
+    color: #ffffff;
+    
+ }
+ .choise {
+    box-sizing: border-box;
+    background: #ffffff;
+    width: 55%;
+    height: 50px;
+    padding: 15px;
+ }
+
