@@ -7,6 +7,10 @@ body{
     padding: 50px;
     background-color: #ffecec;
 }
+.titre{
+    position: relative;
+    left: 235px;
+}
 .titre h2{
 font-size: 16px;
 text-align:start ;
@@ -15,7 +19,7 @@ margin: 5px;
 .barre {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 .score-quiz h1{
 text-align: start;
