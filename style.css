@@ -69,4 +69,21 @@ padding: 10px;
     padding: 15px;
     cursor: pointer;
  }
-
+.btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    gap: 30px;
+    margin-top: 50px;
+}
+.btn button {
+    border: none;
+    outline: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-size: 15px;
+    cursor: pointer;
+    background-color: #C59797;
+    color: #fff;
+}
