@@ -54,6 +54,17 @@ function updateProgressBar() {
     const progressPercentage = ((QuestionIndex + 1) / Questions.length) * 100;
     progressBar.style.width = progressPercentage + '%';
 }
+function resetQuiz() {
+   
+    score = 0;
+    QuestionIndex = 0;
+    displayQuestion(QuestionIndex);
+    document.getElementById("score-quiz").querySelector("h1").innerText = score;
+    document.getElementById("progress-bar").style.width = '20%';
+    document.getElementById("question-counter").innerText = `Question 1/${Questions.length}`;
+}
 
+
+document.getElementById("resetbutton").addEventListener('click', resetQuiz);
 
 
